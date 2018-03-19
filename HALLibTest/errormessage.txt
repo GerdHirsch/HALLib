@@ -1,0 +1,13 @@
+error: incomplete type 
+'LPC21xx::VIC<
+	Mock::VICMockRegisters<Mock::LPC2134>, 
+	LPC213x::HAL2134<Mock::LPC2134, Generator::EmptyRepository> >
+::DeviceNumber
+<
+	LPC21xx::PWM
+	<
+		LPC21xx::LPC21xxTraits<Mock::LPC2134>, 
+		Mock::CommonPWMRegister<LPC21xx::LPC21xxTraits<Mock::LPC2134> > 
+	>, 
+	int
+>' used in nested name specifier

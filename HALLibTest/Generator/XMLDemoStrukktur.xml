@@ -1,0 +1,118 @@
+<?xml-stylesheet type="text/xsl" href="HTMLTransformer.xsl"?>
+<Contexts>
+<Context name="Radio::RadioLuxus">
+<Columns>
+<Column name="Radio::RadioLuxus"/>
+<Column name="Radio::RadioAdvanced"/>
+<Column name="Radio::RadioSimple"/>
+<Column name="Generator::SelectorDefault"/>
+</Columns>
+<Rows>
+<Row name="0"/>
+<Row name="Radio::Receiver"/>
+<Row name="Radio::Amplifier"/>
+<Row name="Radio::Verkehrsfunk"/>
+</Rows>
+<Cells>
+<Cell column="Radio::RadioAdvanced" row="0" content="Radio::RadioAdvanced"/>
+<Cell column="Radio::RadioSimple" row="0" content="Radio::RadioSimple"/>
+<Cell column="Radio::RadioSimple" row="Radio::Receiver" content="CS&lt;Row, Col&gt;" />
+<Cell column="Radio::RadioLuxus" row="Radio::Amplifier" content="CS&lt;Row, Col&gt;" />
+<Cell column="Radio::RadioSimple" row="Radio::Amplifier" content="CS&lt;Row, Col&gt;" />
+<Cell column="Radio::RadioAdvanced" row="Radio::Verkehrsfunk" content="CS&lt;Row, Col&gt;" />
+</Cells>
+</Context>
+<Context name="Radio::RadioLuxus">
+<Columns>
+<Column name="Radio::RadioLuxus"/>
+<Column name="Radio::RadioAdvanced"/>
+<Column name="Radio::RadioSimple"/>
+<Column name="Generator::SelectorDefault"/>
+</Columns>
+<Rows>
+<Row name="0"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2148 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2146 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2144 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2142 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorDefault &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorEnd &gt;"/>
+</Rows>
+<Cells>
+<Cell column="Radio::RadioAdvanced" row="0" content="Radio::RadioAdvanced"/>
+<Cell column="Radio::RadioSimple" row="0" content="Radio::RadioSimple"/>
+<Cell column="Radio::RadioSimple" row="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;" content="DD&lt;Col, Row&gt;"/>
+</Cells>
+</Context>
+<Context name="CS&lt; Radio::Receiver, Radio::RadioLuxus &gt;">
+<Columns>
+<Column name="CS&lt; Radio::Receiver, Radio::RadioLuxus &gt;"/>
+<Column name="CS&lt; Radio::Receiver, Radio::RadioAdvanced &gt;"/>
+<Column name="CS&lt; Radio::Receiver, Radio::RadioSimple &gt;"/>
+<Column name="CS&lt; Radio::Receiver, Generator::SelectorDefault &gt;"/>
+<Column name="CS&lt; Radio::Receiver, Generator::SelectorEnd &gt;"/>
+</Columns>
+<Rows>
+<Row name="Radio::Receiver"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2148 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2146 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2144 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2142 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorDefault &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorEnd &gt;"/>
+</Rows>
+<Cells>
+<Cell column="Radio::RadioSimple" row="Radio::Receiver" content="CS&lt;Row, Col&gt;" />
+<Cell column="CS&lt; Radio::Receiver, Radio::RadioAdvanced &gt;" row="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;" content="DD&lt;Col, Row&gt;"/><Cell column="CS&lt; Radio::Receiver, Radio::RadioSimple &gt;" row="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;" content="DD&lt;Col, Row&gt;"/>
+</Cells>
+</Context>
+<Context name="CS&lt; Radio::Amplifier, Radio::RadioLuxus &gt;">
+<Columns>
+<Column name="CS&lt; Radio::Amplifier, Radio::RadioLuxus &gt;"/>
+<Column name="CS&lt; Radio::Amplifier, Radio::RadioAdvanced &gt;"/>
+<Column name="CS&lt; Radio::Amplifier, Radio::RadioSimple &gt;"/>
+<Column name="CS&lt; Radio::Amplifier, Generator::SelectorDefault &gt;"/>
+<Column name="CS&lt; Radio::Amplifier, Generator::SelectorEnd &gt;"/>
+</Columns>
+<Rows>
+<Row name="Radio::Amplifier"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2148 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2146 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2144 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2142 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorDefault &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorEnd &gt;"/>
+</Rows>
+<Cells>
+<Cell column="Radio::RadioLuxus" row="Radio::Amplifier" content="CS&lt;Row, Col&gt;" />
+<Cell column="Radio::RadioSimple" row="Radio::Amplifier" content="CS&lt;Row, Col&gt;" />
+
+</Cells>
+</Context>
+<Context name="CS&lt; Radio::Verkehrsfunk, Radio::RadioLuxus &gt;">
+<Columns>
+<Column name="CS&lt; Radio::Verkehrsfunk, Radio::RadioLuxus &gt;"/>
+<Column name="CS&lt; Radio::Verkehrsfunk, Radio::RadioAdvanced &gt;"/>
+<Column name="CS&lt; Radio::Verkehrsfunk, Radio::RadioSimple &gt;"/>
+<Column name="CS&lt; Radio::Verkehrsfunk, Generator::SelectorDefault &gt;"/>
+<Column name="CS&lt; Radio::Verkehrsfunk, Generator::SelectorEnd &gt;"/>
+</Columns>
+<Rows>
+<Row name="Radio::Verkehrsfunk"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2148 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2146 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2144 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2142 &gt;"/>
+<Row name="CS&lt; Boards::Board1, LPC214x::LPC2141 &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorDefault &gt;"/>
+<Row name="CS&lt; Boards::Board1, Generator::SelectorEnd &gt;"/>
+</Rows>
+<Cells>
+<Cell column="Radio::RadioAdvanced" row="Radio::Verkehrsfunk" content="CS&lt;Row, Col&gt;" />
+
+</Cells>
+</Context>
+</Contexts>

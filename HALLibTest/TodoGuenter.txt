@@ -1,0 +1,11 @@
+Gloasar Fachbegriffe 
+statischer Polymorphismus
+type function siehe kapitel script
+template spezialisierung siehe kapitel Templates, Klassen, Objekte, Funktionen und die UML
+member type definition ok.
+
+policy based design siehe alexandrescu und sript policy based design
+
+
+
+Reference + Literatur
